@@ -1,3 +1,4 @@
+ruby "2.4.0"
 source 'https://rubygems.org'
 
 gem 'rails', '~> 5.0.2'
@@ -9,15 +10,6 @@ gem 'dotenv-rails', '~> 2.2'
 
 group :development, :test do
   gem 'byebug', platform: :mri
-end
-
-group :test do
-  gem 'rspec-rails'
-  gem 'shoulda-matchers'
-  gem 'factory_girl_rails'
-  gem 'database_cleaner'
-  gem 'shoulda-matchers'
-  gem 'ffaker'
 end
 
 group :development do

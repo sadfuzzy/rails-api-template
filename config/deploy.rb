@@ -1,7 +1,7 @@
 lock '3.7.2'
 
 set :application, 'project'
-set :repo_url, 'git@github.com:kirillweb/rails-api-template.git'
+set :repo_url, 'git@github.com:sadfuzzy/rails-api-template.git'
 
 set :use_sudo, false
 set :deploy_via, :copy
@@ -10,7 +10,7 @@ set :keep_releases, 2
 set :log_level, :debug
 set :pty, true
 
-set :rvm1_ruby_version, 'ruby-2.3.3'
+set :rvm1_ruby_version, 'ruby-2.4.0'
 set :rvm_type, :user
 set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
